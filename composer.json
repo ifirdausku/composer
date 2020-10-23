@@ -1,0 +1,40 @@
+{
+	"name": "ifirdausku/composer",
+	"type": "project",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "ifirdausku",
+			"email": "ifirdausku@gmail.com"
+		}
+	],
+
+
+	"require": {
+		"twbs/bootstrap": "^4.5.3",
+		"fortawesome/font-awesome": "^5.15",
+		"components/jquery": "^3.5",
+		"driftyco/ionicons": "^2.0",
+		"datatables/datatables": "^1.10"
+	},
+
+	"_comment": "scripts dibawah untuk menghapus folder public/ lalu memindahkan yang ada dalam vendor/ ke public/bootstrap,script ini hanya bisa di gunakan untuk git bash",
+	"scripts": {
+		"post-update-cmd": [
+			"rm -rf public/bootstrap",
+			"cp -R vendor/twbs/bootstrap/dist public/bootstrap",
+
+			"rm -rf public/jquery",
+			"cp -R vendor/components/jquery public/jquery",
+
+			"rm -rf public/font-awesome/css",
+			"cp -R vendor/fortawesome/font-awesome/css public/font-awesome/css",
+
+			"rm -rf public/ionicons/css",
+			"cp -R vendor/driftyco/ionicons/css public/ionicons/css",
+
+			"rm -rf public/datatables/media",
+			"cp -R vendor/datatables/datatables/media public/datatables/media"
+		]
+	}
+}
