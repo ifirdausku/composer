@@ -1,247 +1,255 @@
-[
-    {
-        "name": "components/jquery",
-        "version": "3.5.1",
-        "version_normalized": "3.5.1.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/components/jquery.git",
-            "reference": "b33e8f0f9a1cb2ae390cf05d766a900b53d2125b"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/components/jquery/zipball/b33e8f0f9a1cb2ae390cf05d766a900b53d2125b",
-            "reference": "b33e8f0f9a1cb2ae390cf05d766a900b53d2125b",
-            "shasum": ""
-        },
-        "time": "2020-05-05T13:21:02+00:00",
-        "type": "component",
-        "extra": {
-            "component": {
-                "scripts": [
-                    "jquery.js"
-                ],
-                "files": [
-                    "jquery.min.js",
-                    "jquery.min.map",
-                    "jquery.slim.js",
-                    "jquery.slim.min.js",
-                    "jquery.slim.min.map"
-                ]
-            }
-        },
-        "installation-source": "dist",
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "JS Foundation and other contributors"
-            }
-        ],
-        "description": "jQuery JavaScript Library",
-        "homepage": "http://jquery.com"
-    },
-    {
-        "name": "datatables/datatables",
-        "version": "1.10.21",
-        "version_normalized": "1.10.21.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/DataTables/DataTables.git",
-            "reference": "83e59694a105225ff889ddfa0d723a3ab24fda78"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/DataTables/DataTables/zipball/83e59694a105225ff889ddfa0d723a3ab24fda78",
-            "reference": "83e59694a105225ff889ddfa0d723a3ab24fda78",
-            "shasum": ""
-        },
-        "time": "2020-05-21T10:08:44+00:00",
-        "type": "library",
-        "installation-source": "dist",
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "description": "DataTables is a plug-in for the jQuery Javascript library. It is a highly flexible tool, based upon the foundations of progressive enhancement, which will add advanced interaction controls to any HTML table.",
-        "homepage": "http://www.datatables.net/"
-    },
-    {
-        "name": "driftyco/ionicons",
-        "version": "v2.0.1",
-        "version_normalized": "2.0.1.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/driftyco/ionicons.git",
-            "reference": "ecb4b806831005c25b97ed9089fbb1d7dcc0879c"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/driftyco/ionicons/zipball/ecb4b806831005c25b97ed9089fbb1d7dcc0879c",
-            "reference": "ecb4b806831005c25b97ed9089fbb1d7dcc0879c",
-            "shasum": ""
-        },
-        "time": "2015-01-03T20:02:30+00:00",
-        "type": "library",
-        "installation-source": "dist",
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Adam Bradley",
-                "email": "adam@drifty.com",
-                "homepage": "https://twitter.com/adamdbradley",
-                "role": "Developer"
+{
+    "packages": [
+        {
+            "name": "components/jquery",
+            "version": "3.5.1",
+            "version_normalized": "3.5.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/components/jquery.git",
+                "reference": "b33e8f0f9a1cb2ae390cf05d766a900b53d2125b"
             },
-            {
-                "name": "Max Lynch",
-                "email": "max@drifty.com",
-                "homepage": "https://twitter.com/maxlynch",
-                "role": "Developer"
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/components/jquery/zipball/b33e8f0f9a1cb2ae390cf05d766a900b53d2125b",
+                "reference": "b33e8f0f9a1cb2ae390cf05d766a900b53d2125b",
+                "shasum": ""
             },
-            {
-                "name": "Ben Sperry",
-                "email": "ben@drifty.com",
-                "homepage": "https://twitter.com/benjsperry",
-                "role": "Designer"
-            }
-        ],
-        "description": "The premium icon font for Ionic Framework.",
-        "homepage": "http://ionicons.com/",
-        "keywords": [
-            "fonts",
-            "icon font",
-            "icons",
-            "ionic",
-            "web font"
-        ]
-    },
-    {
-        "name": "fortawesome/font-awesome",
-        "version": "5.15.1",
-        "version_normalized": "5.15.1.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/FortAwesome/Font-Awesome.git",
-            "reference": "57005cea6da7d1c67f3466974aecd25485f60452"
+            "time": "2020-05-05T13:21:02+00:00",
+            "type": "component",
+            "extra": {
+                "component": {
+                    "scripts": [
+                        "jquery.js"
+                    ],
+                    "files": [
+                        "jquery.min.js",
+                        "jquery.min.map",
+                        "jquery.slim.js",
+                        "jquery.slim.min.js",
+                        "jquery.slim.min.map"
+                    ]
+                }
+            },
+            "installation-source": "dist",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "JS Foundation and other contributors"
+                }
+            ],
+            "description": "jQuery JavaScript Library",
+            "homepage": "http://jquery.com",
+            "install-path": "../components/jquery"
         },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/FortAwesome/Font-Awesome/zipball/57005cea6da7d1c67f3466974aecd25485f60452",
-            "reference": "57005cea6da7d1c67f3466974aecd25485f60452",
-            "shasum": ""
+        {
+            "name": "datatables/datatables",
+            "version": "1.10.21",
+            "version_normalized": "1.10.21.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/DataTables/DataTables.git",
+                "reference": "83e59694a105225ff889ddfa0d723a3ab24fda78"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/DataTables/DataTables/zipball/83e59694a105225ff889ddfa0d723a3ab24fda78",
+                "reference": "83e59694a105225ff889ddfa0d723a3ab24fda78",
+                "shasum": ""
+            },
+            "time": "2020-05-21T10:08:44+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "DataTables is a plug-in for the jQuery Javascript library. It is a highly flexible tool, based upon the foundations of progressive enhancement, which will add advanced interaction controls to any HTML table.",
+            "homepage": "http://www.datatables.net/",
+            "install-path": "../datatables/datatables"
         },
-        "time": "2020-10-05T16:44:11+00:00",
-        "type": "library",
-        "installation-source": "dist",
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "CC-BY-4.0",
-            "OFL-1.1",
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Travis Chase",
-                "homepage": "http://twitter.com/supercodepoet"
+        {
+            "name": "driftyco/ionicons",
+            "version": "v2.0.1",
+            "version_normalized": "2.0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/driftyco/ionicons.git",
+                "reference": "ecb4b806831005c25b97ed9089fbb1d7dcc0879c"
             },
-            {
-                "name": "Dave Gandy",
-                "homepage": "http://twitter.com/davegandy"
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/driftyco/ionicons/zipball/ecb4b806831005c25b97ed9089fbb1d7dcc0879c",
+                "reference": "ecb4b806831005c25b97ed9089fbb1d7dcc0879c",
+                "shasum": ""
             },
-            {
-                "name": "Rob Madole",
-                "homepage": "http://twitter.com/robmadole"
-            },
-            {
-                "name": "Jory Raphael",
-                "homepage": "http://twitter.com/sensibleworld"
-            },
-            {
-                "name": "Geremia Taglialatela",
-                "homepage": "http://twitter.com/gtagliala"
-            },
-            {
-                "name": "Brian Talbot",
-                "homepage": "http://twitter.com/talbs"
-            },
-            {
-                "name": "Mike Wilkerson",
-                "homepage": "http://twitter.com/mw77"
-            }
-        ],
-        "description": "The iconic font, CSS, and SVG framework",
-        "homepage": "https://fontawesome.com",
-        "keywords": [
-            "FontAwesome",
-            "awesome",
-            "bootstrap",
-            "font",
-            "icon",
-            "svg"
-        ]
-    },
-    {
-        "name": "twbs/bootstrap",
-        "version": "v4.5.3",
-        "version_normalized": "4.5.3.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/twbs/bootstrap.git",
-            "reference": "a716fb03f965dc0846df479e14388b1b4b93d7ce"
+            "time": "2015-01-03T20:02:30+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Adam Bradley",
+                    "email": "adam@drifty.com",
+                    "homepage": "https://twitter.com/adamdbradley",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Max Lynch",
+                    "email": "max@drifty.com",
+                    "homepage": "https://twitter.com/maxlynch",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Ben Sperry",
+                    "email": "ben@drifty.com",
+                    "homepage": "https://twitter.com/benjsperry",
+                    "role": "Designer"
+                }
+            ],
+            "description": "The premium icon font for Ionic Framework.",
+            "homepage": "http://ionicons.com/",
+            "keywords": [
+                "fonts",
+                "icon font",
+                "icons",
+                "ionic",
+                "web font"
+            ],
+            "install-path": "../driftyco/ionicons"
         },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/twbs/bootstrap/zipball/a716fb03f965dc0846df479e14388b1b4b93d7ce",
-            "reference": "a716fb03f965dc0846df479e14388b1b4b93d7ce",
-            "shasum": ""
-        },
-        "replace": {
-            "twitter/bootstrap": "self.version"
-        },
-        "time": "2020-10-13T15:38:30+00:00",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "3.3.x-dev"
-            }
-        },
-        "installation-source": "dist",
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Mark Otto",
-                "email": "markdotto@gmail.com"
+        {
+            "name": "fortawesome/font-awesome",
+            "version": "5.15.1",
+            "version_normalized": "5.15.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FortAwesome/Font-Awesome.git",
+                "reference": "57005cea6da7d1c67f3466974aecd25485f60452"
             },
-            {
-                "name": "Jacob Thornton",
-                "email": "jacobthornton@gmail.com"
-            }
-        ],
-        "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
-        "homepage": "https://getbootstrap.com/",
-        "keywords": [
-            "JS",
-            "css",
-            "framework",
-            "front-end",
-            "mobile-first",
-            "responsive",
-            "sass",
-            "web"
-        ],
-        "funding": [
-            {
-                "url": "https://opencollective.com/bootstrap",
-                "type": "open_collective"
-            }
-        ]
-    }
-]
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FortAwesome/Font-Awesome/zipball/57005cea6da7d1c67f3466974aecd25485f60452",
+                "reference": "57005cea6da7d1c67f3466974aecd25485f60452",
+                "shasum": ""
+            },
+            "time": "2020-10-05T16:44:11+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "CC-BY-4.0",
+                "OFL-1.1",
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Travis Chase",
+                    "homepage": "http://twitter.com/supercodepoet"
+                },
+                {
+                    "name": "Dave Gandy",
+                    "homepage": "http://twitter.com/davegandy"
+                },
+                {
+                    "name": "Rob Madole",
+                    "homepage": "http://twitter.com/robmadole"
+                },
+                {
+                    "name": "Jory Raphael",
+                    "homepage": "http://twitter.com/sensibleworld"
+                },
+                {
+                    "name": "Geremia Taglialatela",
+                    "homepage": "http://twitter.com/gtagliala"
+                },
+                {
+                    "name": "Brian Talbot",
+                    "homepage": "http://twitter.com/talbs"
+                },
+                {
+                    "name": "Mike Wilkerson",
+                    "homepage": "http://twitter.com/mw77"
+                }
+            ],
+            "description": "The iconic font, CSS, and SVG framework",
+            "homepage": "https://fontawesome.com",
+            "keywords": [
+                "FontAwesome",
+                "awesome",
+                "bootstrap",
+                "font",
+                "icon",
+                "svg"
+            ],
+            "install-path": "../fortawesome/font-awesome"
+        },
+        {
+            "name": "twbs/bootstrap",
+            "version": "v4.5.3",
+            "version_normalized": "4.5.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twbs/bootstrap.git",
+                "reference": "a716fb03f965dc0846df479e14388b1b4b93d7ce"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/a716fb03f965dc0846df479e14388b1b4b93d7ce",
+                "reference": "a716fb03f965dc0846df479e14388b1b4b93d7ce",
+                "shasum": ""
+            },
+            "replace": {
+                "twitter/bootstrap": "self.version"
+            },
+            "time": "2020-10-13T15:38:30+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.3.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mark Otto",
+                    "email": "markdotto@gmail.com"
+                },
+                {
+                    "name": "Jacob Thornton",
+                    "email": "jacobthornton@gmail.com"
+                }
+            ],
+            "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
+            "homepage": "https://getbootstrap.com/",
+            "keywords": [
+                "JS",
+                "css",
+                "framework",
+                "front-end",
+                "mobile-first",
+                "responsive",
+                "sass",
+                "web"
+            ],
+            "funding": [
+                {
+                    "url": "https://opencollective.com/bootstrap",
+                    "type": "open_collective"
+                }
+            ],
+            "install-path": "../twbs/bootstrap"
+        }
+    ],
+    "dev": true
+}

@@ -46,6 +46,13 @@
             ],
             "description": "jQuery JavaScript Library",
             "homepage": "http://jquery.com",
+            "support": {
+                "forum": "http://forum.jquery.com",
+                "irc": "irc://irc.freenode.org/jquery",
+                "issues": "https://github.com/jquery/jquery/issues",
+                "source": "https://github.com/jquery/jquery",
+                "wiki": "http://docs.jquery.com/"
+            },
             "time": "2020-05-05T13:21:02+00:00"
         },
         {
@@ -69,6 +76,10 @@
             ],
             "description": "DataTables is a plug-in for the jQuery Javascript library. It is a highly flexible tool, based upon the foundations of progressive enhancement, which will add advanced interaction controls to any HTML table.",
             "homepage": "http://www.datatables.net/",
+            "support": {
+                "forum": "https://datatables.net/forums",
+                "source": "https://github.com/DataTables/DataTablesSrc/"
+            },
             "time": "2020-05-21T10:08:44+00:00"
         },
         {
@@ -119,6 +130,10 @@
                 "ionic",
                 "web font"
             ],
+            "support": {
+                "issues": "https://github.com/driftyco/ionicons/issues",
+                "source": "https://github.com/driftyco/ionicons/tree/v2.0.1"
+            },
             "time": "2015-01-03T20:02:30+00:00"
         },
         {
@@ -182,6 +197,12 @@
                 "icon",
                 "svg"
             ],
+            "support": {
+                "docs": "http://fontawesome.com/how-to-use",
+                "email": "hello@fontawesome.com",
+                "issues": "https://github.com/FortAwesome/Font-Awesome/issues",
+                "source": "https://github.com/FortAwesome/Font-Awesome"
+            },
             "time": "2020-10-05T16:44:11+00:00"
         },
         {
@@ -233,6 +254,10 @@
                 "sass",
                 "web"
             ],
+            "support": {
+                "issues": "https://github.com/twbs/bootstrap/issues",
+                "source": "https://github.com/twbs/bootstrap/tree/v4.5.3"
+            },
             "funding": [
                 {
                     "url": "https://opencollective.com/bootstrap",
@@ -250,5 +275,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "1.1.0"
+    "plugin-api-version": "2.0.0"
 }
