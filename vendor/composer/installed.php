@@ -1,12 +1,12 @@
 <?php return array (
   'root' => 
   array (
-    'pretty_version' => 'dev-main',
-    'version' => 'dev-main',
+    'pretty_version' => 'dev-master',
+    'version' => 'dev-master',
     'aliases' => 
     array (
     ),
-    'reference' => '910b4c43f432a9400b29804b1af5ebaefbe11393',
+    'reference' => '69e1ef1b3a93d4efbe2c42cb4089ec058dce6307',
     'name' => 'ifirdausku/composer',
   ),
   'versions' => 
@@ -40,36 +40,36 @@
     ),
     'fortawesome/font-awesome' => 
     array (
-      'pretty_version' => '5.15.1',
-      'version' => '5.15.1.0',
+      'pretty_version' => '5.15.3',
+      'version' => '5.15.3.0',
       'aliases' => 
       array (
       ),
-      'reference' => '57005cea6da7d1c67f3466974aecd25485f60452',
+      'reference' => 'd79d85c3fad85ad1885e87ed558f4afd6fce8289',
     ),
     'ifirdausku/composer' => 
     array (
-      'pretty_version' => 'dev-main',
-      'version' => 'dev-main',
+      'pretty_version' => 'dev-master',
+      'version' => 'dev-master',
       'aliases' => 
       array (
       ),
-      'reference' => '910b4c43f432a9400b29804b1af5ebaefbe11393',
+      'reference' => '69e1ef1b3a93d4efbe2c42cb4089ec058dce6307',
     ),
     'twbs/bootstrap' => 
     array (
-      'pretty_version' => 'v4.5.3',
-      'version' => '4.5.3.0',
+      'pretty_version' => 'v5.0.1',
+      'version' => '5.0.1.0',
       'aliases' => 
       array (
       ),
-      'reference' => 'a716fb03f965dc0846df479e14388b1b4b93d7ce',
+      'reference' => '58b1be927f43c779377e478df2d119f2ddf956ca',
     ),
     'twitter/bootstrap' => 
     array (
       'replaced' => 
       array (
-        0 => 'v4.5.3',
+        0 => 'v5.0.1',
       ),
     ),
   ),
